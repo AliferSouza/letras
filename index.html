@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Lyrics Search</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./stylee.css">
+</head>
+<body>
+  <div class="slider">
+    <img class="selected" src="https://images.unsplash.com/photo-1530432999454-016a47c78af3?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Image1">
+    <img src="./img/pngtree-blue-geometric-flat-music-banner-background-image_210611.jpg" alt="Image2">
+    <img src="./img/pngtree-music-headset-red-simple-banner-image_174717.jpg" alt="Image3">
+    <img src="./img/pngtree-purple-minimalist-music-note-banner-background-image_210612.jpg"" alt="Image4">
+    <h1>Busca letras</h1>
+
+    <form id="form">
+      <input
+        autofocus
+        id="search"
+        type="text"
+        placeholder="Insira o nome do artista ou da música..."
+      />
+
+      <button>Buscar</button>
+    </form>
+  </div>
+
+  <ul id="songs-container" class="songs-container songs"></ul>
+
+  <div id="prev-and-next-container" class="prev-and-next-container"></div>
+
+  <script src="./app.js"></script>
+  <script src="./script.js"></script>
+</body>
+</html>
